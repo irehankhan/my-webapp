@@ -203,68 +203,71 @@ Press CTRL+C to quit
 ```
 ## Github Logs for my Teacher
 ```bash
-  irehankhan@Rehans-Mac-mini my-webapp % git init
-  hint: Using 'master' as the name for the initial branch. This default branch name
-  hint: is subject to change. To configure the initial branch name to use in all
-  hint: of your new repositories, which will suppress this warning, call:
-  hint: 
-  hint: 	git config --global init.defaultBranch <name>
-  hint: 
-  hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
-  hint: 'development'. The just-created branch can be renamed via this command:
-  hint: 
-  hint: 	git branch -m <name>
-  Initialized empty Git repository in /Users/irehankhan/Documents/my-webapp/.git/
-  irehankhan@Rehans-Mac-mini my-webapp % git remote add origin git@github.com:irehankhan/my-webapp.git
-  irehankhan@Rehans-Mac-mini my-webapp % git status
-  On branch master
+  irehankhan@Rehans-Mac-mini my-webapp2 % git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/irehankhan/Documents/my-webapp2/.git/
+irehankhan@Rehans-Mac-mini my-webapp2 % git checkout -b main
+Switched to a new branch 'main'
+irehankhan@Rehans-Mac-mini my-webapp2 % git status
+On branch main
 
-  No commits yet
+No commits yet
 
-  Untracked files:
-    (use "git add <file>..." to include in what will be committed)
-    Dockerfile
-    README.md
-    app.py
-    requirements.txt
-    
-  nothing added to commit but untracked files present (use "git add" to track)
-  irehankhan@Rehans-Mac-mini my-webapp % git branch -M main
-  irehankhan@Rehans-Mac-mini my-webapp % git status
-  On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Dockerfile
+	README.md
+	app.py
+	image-1.png
+	image.png
+	requirements.txt
 
-  No commits yet
+nothing added to commit but untracked files present (use "git add" to track)
+irehankhan@Rehans-Mac-mini my-webapp2 % git add .
+irehankhan@Rehans-Mac-mini my-webapp2 % git status
+On branch main
 
-  Untracked files:
-    (use "git add <file>..." to include in what will be committed)
-    Dockerfile
-    README.md
-    app.py
-    requirements.txt
+No commits yet
 
-  nothing added to commit but untracked files present (use "git add" to track)
-  irehankhan@Rehans-Mac-mini my-webapp % git add .
-  irehankhan@Rehans-Mac-mini my-webapp % git commit -m "Added Codebase & Readme.md"
-  [main (root-commit) 57456da] Added Codebase & Readme.md
-  4 files changed, 188 insertions(+)
-  create mode 100644 Dockerfile
-  create mode 100644 README.md
-  create mode 100644 app.py
-  create mode 100644 requirements.txt
-  irehankhan@Rehans-Mac-mini my-webapp % git status
-  On branch main
-  nothing to commit, working tree clean
-  irehankhan@Rehans-Mac-mini my-webapp % git push -u origin main
-  Enumerating objects: 6, done.
-  Counting objects: 100% (6/6), done.
-  Delta compression using up to 8 threads
-  Compressing objects: 100% (5/5), done.
-  Writing objects: 100% (6/6), 3.12 KiB | 3.12 MiB/s, done.
-  Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
-  To github.com:irehankhan/my-webapp.git
-  * [new branch]      main -> main
-  branch 'main' set up to track 'origin/main'.
-  irehankhan@Rehans-Mac-mini my-webapp % 
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   Dockerfile
+	new file:   README.md
+	new file:   app.py
+	new file:   image-1.png
+	new file:   image.png
+	new file:   requirements.txt
+
+irehankhan@Rehans-Mac-mini my-webapp2 % git commit -m "INITIAL COMMIT"
+[main (root-commit) ec5574c] INITIAL COMMIT
+ 6 files changed, 303 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 README.md
+ create mode 100644 app.py
+ create mode 100644 image-1.png
+ create mode 100644 image.png
+ create mode 100644 requirements.txt
+irehankhan@Rehans-Mac-mini my-webapp2 % git remote add origin git@github.com:irehankhan/my-webapp.git
+irehankhan@Rehans-Mac-mini my-webapp2 % git branch -M main
+irehankhan@Rehans-Mac-mini my-webapp2 % git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 37.71 KiB | 12.57 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:irehankhan/my-webapp.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
 ```
 <h1></h1>
 <h1 style="text-align: center;">Thank You!</h1>
