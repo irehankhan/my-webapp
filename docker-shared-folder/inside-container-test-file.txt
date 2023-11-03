@@ -1,0 +1,9 @@
+
+Hello!
+This is a test file to check if a file can be created from outside container.
+Also this text is written in this file using bash shell of this container to check.
+
+Thank You.
+
+Regards,
+Rehan

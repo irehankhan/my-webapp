@@ -2,9 +2,9 @@
 
 ## Description
 
-This is a simple web application using Python Flask and used it in my docker image. When it will run in docker container it will print "Welcome! Sir, to my First Web Application on Docker" message on Browser and you can input in browser url "how are you" and it will return "I am fine, how are you doing" output on browser. Further, docker file/image for running this application will be created. In the end i will upload docker image to docker hub.
+This is a simple web application using Python Flask and used it in my docker image. When it will run in docker container it will print "Welcome! Sir, to my First Web Application on Docker" message on Browser and you can input in browser url "how are you" and it will return "I am good, how about you?" output on browser. Further, docker file/image for running this application will be created. In the end i will upload docker image to docker hub.
 
-## Required Dependecies
+## Required Dependencies
 
 - Ubuntu (Base Docker image) 
 - Python3 (Programming Language)
@@ -152,7 +152,7 @@ then push docker image to docker hub using below command
 ```bash
       docker push irehankhan/my-webapp:1.0
 ```
-<i> Note: While pushing docker image to docker hub repository add your username of docker hub for successfull operation.</i>
+<i> Note: While pushing docker image to docker hub repository add your username of docker hub for successful operation.</i>
 
 Below is the output
 ```bash
