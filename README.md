@@ -174,7 +174,7 @@ irehankhan@Rehans-Mac-mini my-webapp2 %
 ### To Access Docker Hub Repository
 Please use below link and pull/run (irehankhan/my-webapp:1.0) Repository
 ```html
-    https://hub.docker.com/r/irehankhan/my-webapp
+    https://hub.docker.com/r/irehankhan/my-webapp/tags
 ```
 ### Accessing Docker Image from Docker Hub
 To check if docker image file is pushed properly and working after fetching from Docker Hub Repository
